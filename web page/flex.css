@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.g1{
+     width: 100%;
+     height: 1200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("https://th.bing.com/th?id=OIP.I1scgx4bTN3MA-ckkS_i3wHaLG&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    }
+
+.g1 h2{text-align: center;
+       font-size: xx-large;
+       background-color: lightgray;
+       color: black;
+       text-shadow: 2px 2px black; 
+       padding: 30px 50px 30px 50px;
+}    
+
+.g2{
+     width: 1170px;
+     margin: auto;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+
+
+}
+
+.g3{background-color: white;
+    text-align: center;
+    padding: 10px ;
+    flex-basis: 20%;
+    margin-top: 10px;
+    box-shadow:3px 3px 4px 4px purple ;
+    border-radius: 6px;
+    transition: all 0.3s 0.3s ease-in-out ;
+    cursor: pointer;
+    animation: happy 2s 2s infinite;}
+
+    .g3 h3{
+        margin-top: 10px;
+    }
+
+    .g3 p{
+           margin-top: 20px;
+
+    }
+
+    .g3:hover{
+              background-color: blueviolet;
+              color: aqua;
+              box-shadow: 3px 3px 4px 4px cyan;
+
+    }
+
+
+    .g4{background-color: lightcoral;
+        padding: 5px 12px;
+         margin-top: 20px;
+        border-radius: 6px;
+       font-weight: 900;
+        cursor: pointer;}
+
+
+
+       .g4:hover{   background-color: purple;
+        color: white;}
+       .g5{
+       float: left;
+       font-size: xx-large;
+       padding-left: 100px ;
+       margin: -75px;
+       }
+     .g5{text-decoration: none; color: blue;}  

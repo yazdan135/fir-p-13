@@ -1,0 +1,36 @@
+*{padding: 0;
+margin: 0;}
+  
+.g2{background-color: wheat;
+padding-bottom: 160px;}
+
+
+
+.g1{text-align: center;
+background-color: black;
+font-size: x-large;
+color: burlywood;
+padding: 20px;}
+
+
+
+
+.g2{font-size: xx-large;
+text-shadow: 3px 3px cyan;
+color: blueviolet;
+text-align: center;}
+
+.g5{
+
+
+    float: left;
+    
+    
+    margin: -45px;
+    padding-left: 60px;
+    font-size: xx-large;
+
+}
+.g5 a{text-decoration: none; color: blue;}
+
+

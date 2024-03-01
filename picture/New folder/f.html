@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="f.css">
+    <title>form</title>
+</head>
+<body>
+<form action="" class="form-container" onsubmit="return validate()">
+<h3>login</h3>
+<h2 id="error"></h2>
+
+<div class="form-grp">
+<label for="username">Username</label>
+<input type="text" name="username" id="user">
+<i class="fa fa-times u_times" ></i>
+<i class="fa fa-check u_check" ></i>
+</div>
+<br><br>
+
+
+
+
+
+<div class="form-grp">
+<label for="email">Email</label>
+<input type="email" name="email" id="email">
+<i class="fa fa-times e_times" ></i>
+<i class="fa fa-check e_check" ></i>
+</div>
+<br><br>
+
+
+
+
+
+<div class="form-grp">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="pass">
+    <i class="fa fa-times p_times" ></i>
+    <i class="fa fa-check p_check" ></i>
+    </div>
+    <br><br>
+
+
+
+    <div class="form-grp">
+        <input type="submit" value="LOGIN FORM">
+    </div><br>
+</form>
+<script src="f.js"></script>
+</body>
+</html>
